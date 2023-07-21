@@ -1,0 +1,59 @@
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 15px;
+  }
+  
+  .label1 {
+    font-weight: bold;
+  }
+  
+  .input[type="text"],
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input[type="text"]:focus,
+  .textarea:focus {
+    border-color: #007bff; /* Ganti warna border saat input aktif */
+  }
+  
+  .error {
+    border-color: #ff0000;
+  }
+  
+  .error {
+    color: #ff0000;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Ganti warna saat tombol hover */
+  }
+  

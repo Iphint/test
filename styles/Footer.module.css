@@ -1,0 +1,28 @@
+.container {
+  height: calc(20vh - 20px);
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  color: #fff;
+}
+.sosmed {
+  width: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: auto;
+    text-align: center;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+}
